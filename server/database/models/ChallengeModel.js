@@ -30,15 +30,15 @@ module.exports = function(sequelize, DataTypes) {
       field: 'difficulty_level'
     },
     goldMedalTime: {
-      type: DataTypes.INTEGER(11),
+      type: DataTypes.DECIMAL(13, 2).UNSIGNED,
       field: 'gold_medal_time'
     },
     silverMedalTime: {
-      type: DataTypes.INTEGER(11),
+      type: DataTypes.DECIMAL(13, 2).UNSIGNED,
       field: 'silver_medal_time'
     },
     bronzeMedalTime: {
-      type: DataTypes.INTEGER(11),
+      type: DataTypes.DECIMAL(13, 2).UNSIGNED,
       field: 'bronze_medal_time'
     },
     goldKeyStrokes: {
@@ -62,7 +62,7 @@ module.exports = function(sequelize, DataTypes) {
       field: 'num_ratings'
     },
     totalRatingScore: {
-      type: DataTypes.INTEGER(11),
+      type: DataTypes.DECIMAL(13, 2).UNSIGNED,,
       field: 'total_rating_score'
     },
   }, {
