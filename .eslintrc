@@ -52,12 +52,12 @@
           return: true
         }],
         "react/prop-types": 0,
-        "react/display-name": 0
+        "react/display-name": 0,
         "react/jsx-handler-names": 0,
         "react/jsx-max-props-per-line": 0,
         "react/jsx-no-literals": 0,
         "react/jsx-sort-prop-types": 0,
-        "react/jsx-sort-props": 0,
+        "react/jsx-sort-props": 0
     },
     "env": {
         "es6": true,
